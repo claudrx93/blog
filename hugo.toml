@@ -1,0 +1,64 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-CN'
+resourceDir = "../resources"
+theme = 'ananke'
+title = '9995空间'
+
+DefaultContentLanguage = "zh" 
+SectionPagesMenu = "main" 
+enableRobotsTXT = true 
+googleAnalytics = "" 
+pagination.pagerSize = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+
+[languages]
+# [languages.en]
+# contentDir = "content/en"
+# title = "9995"
+# weight = 1
+# languageDirection = 'rtl' for Right-To-Left languages
+[languages.zh]
+contentDir = "content"
+# title = "Code:9995"
+weight = 2
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[params]
+author = "Miantu"
+description = "The last theme you'll ever need. Maybe."
+favicon = ""
+site_logo = ""
+text_color = ""
+# choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+avatar = "/img/avatar.jpg"
+background_color_class = "bg-black"
+bio = "一名热爱技术的开发者..."
+recent_posts_number = 5
+subtitle = "探索技术与创意"
+
+# 启用搜索功能
+[params.search]
+enable = true
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/GoHugoIO"
+
+# [[menus.main]]
+# name = "关于" 
+# url = "/about/" 
+# weight = 10 # weight 值控制菜单项的显示顺序，值越小越靠前
+
+[[menus.main]]
+name = "栏目"
+url = "/categories/"
+weight = 20
+
+[[menus.main]]
+identifier = "posts"
+name = "文章"
+url = "/posts/"
+weight = 10

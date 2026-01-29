@@ -1,23 +1,8 @@
 {
   "name": "blog",
-  "version": "1.0.0",
-  "description": "blog",
-  "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/claudrx93/blog.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/claudrx93/blog/issues"
-  },
-  "homepage": "https://github.com/claudrx93/blog#readme",
-  "devDependencies": {
-    "vuepress": "^1.6.0"
+    "dev": "c:/hugo/hugo server -D",
+    "newPost": "c:/hugo/hugo new posts/new-post.md",
+    "build": "c:/hugo/hugo"
   }
 }

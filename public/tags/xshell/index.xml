@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xshell on 9995空间</title>
+    <link>http://localhost:1313/tags/xshell/</link>
+    <description>Recent content in Xshell on 9995空间</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 26 Jun 2022 21:29:47 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/xshell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xmanger7个人免费版</title>
+      <link>http://localhost:1313/posts/2022/06/xmanger7%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E7%89%88/</link>
+      <pubDate>Sun, 26 Jun 2022 21:29:47 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2022/06/xmanger7%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E7%89%88/</guid>
+      <description>&lt;p&gt;趁着618在腾讯云买了一台轻服务器只要45一年便宜得很。安装了Ubuntu Server 20.04 LTS 64bit的镜像后，发现原来的Xshell5无法连接。查了一下原来是openSSH的版本太低无法解决新的ssh的key导致。果断升级Xshell试一下。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
