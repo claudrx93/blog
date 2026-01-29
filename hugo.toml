@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://claudrx93.github.io/'
 languageCode = 'zh-CN'
 resourceDir = "../resources"
 theme = 'ananke'
@@ -62,3 +62,15 @@ identifier = "posts"
 name = "文章"
 url = "/posts/"
 weight = 10
+
+# GitHub Pages 配置
+[deployment]
+order = [".jpg", ".png", ".svg", ".webp", ".gif", ".ico"]
+
+# 性能优化
+[minify]
+disableXML = true
+minifyOutput = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
