@@ -63,6 +63,12 @@ name = "文章"
 url = "/posts/"
 weight = 10
 
+[[menus.main]]
+identifier = "travel"
+name = "游记"
+url = "/travel/"
+weight = 10
+
 # GitHub Pages 配置
 [deployment]
 order = [".jpg", ".png", ".svg", ".webp", ".gif", ".ico"]

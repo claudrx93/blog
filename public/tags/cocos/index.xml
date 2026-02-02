@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cocos on 9995空间</title>
-    <link>https://599929995.xyz/tags/cocos/</link>
+    <link>http://localhost:1313/tags/cocos/</link>
     <description>Recent content in Cocos on 9995空间</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Mon, 19 Jan 2026 18:07:23 +0800</lastBuildDate>
-    <atom:link href="https://599929995.xyz/tags/cocos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cocos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cocos组件为属性设置资源默认值</title>
-      <link>https://599929995.xyz/posts/2026/01/cocos%E7%BB%84%E4%BB%B6%E4%B8%BA%E5%B1%9E%E6%80%A7%E8%AE%BE%E7%BD%AE%E8%B5%84%E6%BA%90%E9%BB%98%E8%AE%A4%E5%80%BC/</link>
+      <link>http://localhost:1313/posts/2026/01/cocos%E7%BB%84%E4%BB%B6%E4%B8%BA%E5%B1%9E%E6%80%A7%E8%AE%BE%E7%BD%AE%E8%B5%84%E6%BA%90%E9%BB%98%E8%AE%A4%E5%80%BC/</link>
       <pubDate>Mon, 19 Jan 2026 18:07:23 +0800</pubDate>
-      <guid>https://599929995.xyz/posts/2026/01/cocos%E7%BB%84%E4%BB%B6%E4%B8%BA%E5%B1%9E%E6%80%A7%E8%AE%BE%E7%BD%AE%E8%B5%84%E6%BA%90%E9%BB%98%E8%AE%A4%E5%80%BC/</guid>
+      <guid>http://localhost:1313/posts/2026/01/cocos%E7%BB%84%E4%BB%B6%E4%B8%BA%E5%B1%9E%E6%80%A7%E8%AE%BE%E7%BD%AE%E8%B5%84%E6%BA%90%E9%BB%98%E8%AE%A4%E5%80%BC/</guid>
       <description>&lt;p&gt;Cocos中为自定义组件设置默认值，一般使用@property装饰器完成。这个也是官方文档中的方法。但是如果遇到需要设置资源这种非数值类的默认值就没有什么办法。&lt;/p&gt;&#xA;&lt;p&gt;下面介绍一下其他实现的方法。&lt;/p&gt;</description>
     </item>
   </channel>
