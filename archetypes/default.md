@@ -4,7 +4,7 @@ draft = true
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 featured_image = ''
 categories = []
-tags= []
+tags = []
 toc= false
 +++
 

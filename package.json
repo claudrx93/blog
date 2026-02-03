@@ -2,7 +2,7 @@
   "name": "blog",
   "scripts": {
     "dev": "c:/hugo/hugo server -D",
-    "newPost": "c:/hugo/hugo new posts/new-post.md",
+    "newPost": "c:/hugo/hugo new posts/index.md",
     "build": "c:/hugo/hugo"
   }
 }

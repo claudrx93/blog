@@ -1,0 +1,19 @@
+{
+  // 1. 为 Hugo 模板文件关联正确语言模式
+  "files.associations": {
+    "*.html": "go-template"
+  },
+  // 2. 禁用默认的 HTML 格式化
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  // 3. 仅为 go-template 启用格式化
+  "[go-template]": {
+    "editor.formatOnSave": true
+  },
+  // 4. 如有 Prettier 插件，指定格式化程序
+  "go-template.format": "prettier",
+  "prettier.documentSelectors": [
+    "**/*.html"
+  ]
+}
