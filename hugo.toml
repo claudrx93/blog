@@ -8,7 +8,7 @@ DefaultContentLanguage = "zh"
 SectionPagesMenu = "main" 
 enableRobotsTXT = true 
 googleAnalytics = "" 
-pagination.pagerSize = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+pagination.pagerSize = 15 # this is set low for demonstrating with dummy content. Set to a higher number
 
 [languages]
 # [languages.en]

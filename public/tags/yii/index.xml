@@ -6,8 +6,15 @@
     <description>Recent content in Yii on 9995空间</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 01 Jul 2022 20:41:01 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 26 Jul 2022 12:03:54 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/yii/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yii2增加opcache命令行清理功能</title>
+      <link>http://localhost:1313/posts/2022/07/yii2%E5%A2%9E%E5%8A%A0opcache%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%B8%85%E7%90%86%E5%8A%9F%E8%83%BD/</link>
+      <pubDate>Tue, 26 Jul 2022 12:03:54 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2022/07/yii2%E5%A2%9E%E5%8A%A0opcache%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%B8%85%E7%90%86%E5%8A%9F%E8%83%BD/</guid>
+      <description>&lt;p&gt;opcache作为PHP的重要加速功能，可以在生产环境上大大地提升运行速度。如非极度追求速度需要上CLI类的框架，一般生产环境开启opcache即可。&lt;/p&gt;&#xA;&lt;p&gt;opcache的功能不再叙述，可以参考此文（ &lt;a href=&#34;https://segmentfault.com/a/1190000023731765?utm_source=tag-newest&#34;&gt;https://segmentfault.com/a/1190000023731765?utm_source=tag-newest&lt;/a&gt; ）。&lt;/p&gt;&#xA;&lt;p&gt;opcache的效果立竿见影，但是有一个很严重的问题。就是php-fpm的缓存，只能在php-fpm运行php脚本进行清理。简单来说，就是必须暴露一个接口进行浏览器访问才能清理，而不能在命令行完成。Cli的opcache缓存与fpm的opcache缓存是完全独立的。下面就简单介绍一下在YII2如何利用命令行进行解决。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Yii2使用官方docker方案</title>
       <link>http://localhost:1313/posts/2022/07/yii2%E4%BD%BF%E7%94%A8%E5%AE%98%E6%96%B9docker%E6%96%B9%E6%A1%88/</link>

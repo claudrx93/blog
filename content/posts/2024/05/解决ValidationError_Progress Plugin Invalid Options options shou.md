@@ -5,7 +5,7 @@ title = '解决ValidationError: Progress Plugin Invalid Options options shou'
 featured_image = ''
 categories = ['编程']
 tags= ['vue','vuecli']
-toc= false
+toc= true
 +++
 在vue-cli4升级到vue-cli5的时候出现这个错误。
 详细错误信息如下：
