@@ -6,8 +6,15 @@
     <description>Recent content on 9995空间</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 19 Jan 2026 18:07:23 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 20:12:50 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Hugo部署免费博客</title>
+      <link>http://localhost:1313/posts/2026/02/%E4%BD%BF%E7%94%A8hugo%E9%83%A8%E7%BD%B2%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 03 Feb 2026 20:12:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2026/02/%E4%BD%BF%E7%94%A8hugo%E9%83%A8%E7%BD%B2%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;p&gt;介绍一下本博客的部署方案。本博客是使用Hugo的静态博客方案，托管在Github上，再设置自定义域名。优势就是节省服务器资源，其实博客现在也是一个彰显自己个性但是不讨好费钱的活儿。过去也关注过一些个人博客，也总是莫名其妙就消失不见了。只能感叹每个人的际遇境况各不相同，并非每个人都能坚持维护一个个人博客。目前所知道最成功的一个就是&lt;a href=&#34;https://ruanyifeng.com/blog/&#34;&gt;阮一峰的博客&lt;/a&gt;。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Cocos组件为属性设置资源默认值</title>
       <link>http://localhost:1313/posts/2026/01/cocos%E7%BB%84%E4%BB%B6%E4%B8%BA%E5%B1%9E%E6%80%A7%E8%AE%BE%E7%BD%AE%E8%B5%84%E6%BA%90%E9%BB%98%E8%AE%A4%E5%80%BC/</link>
