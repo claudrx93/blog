@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/2026/02/%E4%BD%BF%E7%94%A8hugo%E9%83%A8%E7%BD%B2%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Tue, 03 Feb 2026 20:12:50 +0800</pubDate>
       <guid>http://localhost:1313/posts/2026/02/%E4%BD%BF%E7%94%A8hugo%E9%83%A8%E7%BD%B2%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2/</guid>
-      <description>&lt;p&gt;介绍一下本博客的部署方案，。 s&lt;/p&gt;</description>
+      <description>&lt;p&gt;介绍一下本博客的部署方案。本博客是使用Hugo的静态博客方案，托管在Github上，再设置自定义域名。优势就是节省服务器资源，其实博客现在也是一个彰显自己个性但是不讨好费钱的活儿。过去也关注过一些个人博客，也总是莫名其妙就消失不见了。只能感叹每个人的际遇境况各不相同，并非每个人都能坚持维护一个个人博客。目前所知道最成功的一个就是&lt;a href=&#34;https://ruanyifeng.com/blog/&#34;&gt;阮一峰的博客&lt;/a&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cocos组件为属性设置资源默认值</title>
@@ -42,6 +42,13 @@
       <pubDate>Tue, 26 Jul 2022 12:03:54 +0800</pubDate>
       <guid>http://localhost:1313/posts/2022/07/yii2%E5%A2%9E%E5%8A%A0opcache%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%B8%85%E7%90%86%E5%8A%9F%E8%83%BD/</guid>
       <description>&lt;p&gt;opcache作为PHP的重要加速功能，可以在生产环境上大大地提升运行速度。如非极度追求速度需要上CLI类的框架，一般生产环境开启opcache即可。&lt;/p&gt;&#xA;&lt;p&gt;opcache的功能不再叙述，可以参考此文（ &lt;a href=&#34;https://segmentfault.com/a/1190000023731765?utm_source=tag-newest&#34;&gt;https://segmentfault.com/a/1190000023731765?utm_source=tag-newest&lt;/a&gt; ）。&lt;/p&gt;&#xA;&lt;p&gt;opcache的效果立竿见影，但是有一个很严重的问题。就是php-fpm的缓存，只能在php-fpm运行php脚本进行清理。简单来说，就是必须暴露一个接口进行浏览器访问才能清理，而不能在命令行完成。Cli的opcache缓存与fpm的opcache缓存是完全独立的。下面就简单介绍一下在YII2如何利用命令行进行解决。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yii2与vue整合开发</title>
+      <link>http://localhost:1313/posts/2022/07/yii2%E4%B8%8Evue%E6%95%B4%E5%90%88%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Tue, 19 Jul 2022 16:41:29 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2022/07/yii2%E4%B8%8Evue%E6%95%B4%E5%90%88%E5%BC%80%E5%8F%91/</guid>
+      <description></description>
     </item>
     <item>
       <title>薅羊毛购买一台私人服务器</title>
