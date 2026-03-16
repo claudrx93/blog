@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yii on 9995空间</title>
-    <link>http://localhost:1313/tags/yii/</link>
+    <link>https://599929995.xyz/tags/yii/</link>
     <description>Recent content in Yii on 9995空间</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 26 Jul 2022 12:03:54 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/yii/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jul 2022 16:41:29 +0800</lastBuildDate>
+    <atom:link href="https://599929995.xyz/tags/yii/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Yii2增加opcache命令行清理功能</title>
-      <link>http://localhost:1313/posts/2022/07/yii2%E5%A2%9E%E5%8A%A0opcache%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%B8%85%E7%90%86%E5%8A%9F%E8%83%BD/</link>
-      <pubDate>Tue, 26 Jul 2022 12:03:54 +0800</pubDate>
-      <guid>http://localhost:1313/posts/2022/07/yii2%E5%A2%9E%E5%8A%A0opcache%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%B8%85%E7%90%86%E5%8A%9F%E8%83%BD/</guid>
-      <description>&lt;p&gt;opcache作为PHP的重要加速功能，可以在生产环境上大大地提升运行速度。如非极度追求速度需要上CLI类的框架，一般生产环境开启opcache即可。&lt;/p&gt;&#xA;&lt;p&gt;opcache的功能不再叙述，可以参考此文（ &lt;a href=&#34;https://segmentfault.com/a/1190000023731765?utm_source=tag-newest&#34;&gt;https://segmentfault.com/a/1190000023731765?utm_source=tag-newest&lt;/a&gt; ）。&lt;/p&gt;&#xA;&lt;p&gt;opcache的效果立竿见影，但是有一个很严重的问题。就是php-fpm的缓存，只能在php-fpm运行php脚本进行清理。简单来说，就是必须暴露一个接口进行浏览器访问才能清理，而不能在命令行完成。Cli的opcache缓存与fpm的opcache缓存是完全独立的。下面就简单介绍一下在YII2如何利用命令行进行解决。&lt;/p&gt;</description>
+      <title>Yii2与vue整合开发</title>
+      <link>https://599929995.xyz/posts/2022/07/yii2%E4%B8%8Evue%E6%95%B4%E5%90%88%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Tue, 19 Jul 2022 16:41:29 +0800</pubDate>
+      <guid>https://599929995.xyz/posts/2022/07/yii2%E4%B8%8Evue%E6%95%B4%E5%90%88%E5%BC%80%E5%8F%91/</guid>
+      <description>&lt;p&gt;大家使用vue已经习惯了vue全家桶上，其实vue还是可以跟传统的模式进行整合，没有webpack，没有vite。下面来简要介绍一下：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Yii2使用官方docker方案</title>
-      <link>http://localhost:1313/posts/2022/07/yii2%E4%BD%BF%E7%94%A8%E5%AE%98%E6%96%B9docker%E6%96%B9%E6%A1%88/</link>
+      <link>https://599929995.xyz/posts/2022/07/yii2%E4%BD%BF%E7%94%A8%E5%AE%98%E6%96%B9docker%E6%96%B9%E6%A1%88/</link>
       <pubDate>Fri, 01 Jul 2022 20:41:01 +0800</pubDate>
-      <guid>http://localhost:1313/posts/2022/07/yii2%E4%BD%BF%E7%94%A8%E5%AE%98%E6%96%B9docker%E6%96%B9%E6%A1%88/</guid>
+      <guid>https://599929995.xyz/posts/2022/07/yii2%E4%BD%BF%E7%94%A8%E5%AE%98%E6%96%B9docker%E6%96%B9%E6%A1%88/</guid>
       <description>&lt;p&gt;Yii2是拥有自家的docker解决方案的，但是国内的资料甚少。可能是因为官方镜像出的比较晚，国内大部分是使用私人的镜像。其实，官方的镜像一直在维护，不过名气不大，dockerhub的下载数也只有5K+。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Yii2国内composer安装速度优化</title>
-      <link>http://localhost:1313/posts/2022/02/yii2%E5%9B%BD%E5%86%85composer%E5%AE%89%E8%A3%85%E9%80%9F%E5%BA%A6%E4%BC%98%E5%8C%96/</link>
+      <link>https://599929995.xyz/posts/2022/02/yii2%E5%9B%BD%E5%86%85composer%E5%AE%89%E8%A3%85%E9%80%9F%E5%BA%A6%E4%BC%98%E5%8C%96/</link>
       <pubDate>Sat, 12 Feb 2022 09:36:18 +0800</pubDate>
-      <guid>http://localhost:1313/posts/2022/02/yii2%E5%9B%BD%E5%86%85composer%E5%AE%89%E8%A3%85%E9%80%9F%E5%BA%A6%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://599929995.xyz/posts/2022/02/yii2%E5%9B%BD%E5%86%85composer%E5%AE%89%E8%A3%85%E9%80%9F%E5%BA%A6%E4%BC%98%E5%8C%96/</guid>
       <description>&lt;p&gt;一般情况下，我们在国内直接使用composer进行安装项目，速度会比较堪忧。经过全网查找资料，笔者找到一个简单有效的方法。&lt;/p&gt;&#xA;&lt;p&gt;原因：&lt;/p&gt;&#xA;&lt;p&gt;如果想探究速度慢的原因，很多文章也分析出来，分别是两点：&lt;/p&gt;&#xA;&lt;p&gt;一 composer的国外源比较慢&lt;/p&gt;&#xA;&lt;p&gt;二 bower拉取前端资源有部分来自github&lt;/p&gt;</description>
     </item>
   </channel>

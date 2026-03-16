@@ -34,20 +34,9 @@ class VueAsset extends AssetBundle
 ### 2. 建立对应的view页面。笔者这里是扩展一个form页面的异步上传图片功能。
 
 ```html
-<?php
-use yii\helpers\Html;
-use yii\helpers\Url;
-use yii\widgets\ActiveForm;
-
-/* @var $this yii\web\View */
-/* @var $model backend\models\QqService */
-/* @var $form yii\widgets\ActiveForm */
-?>
-
-<div class="qq-service-form">
-
-    <?php
-    $form = ActiveForm::begin(); ?>
+<?php use yii\helpers\Html;use yii\helpers\Url;use yii\widgets\ActiveForm; ?>
+  <div class="qq-service-form">
+    <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'code')->textInput(['maxlength' => true]) ?>
 
@@ -117,11 +106,11 @@ use yii\widgets\ActiveForm;
 
 - vue已经全局注册，直接new可以使用。如果是vue3请使用create的方法创建。
 
-- new新建vue的时候，使用el指定对应的div进行vue实例化。这时div的内容相当于变成模板内容。同时vue此时只是用于处理一个div的内容，原则上一个页面可以有多个vue实例（对应多个div）。这种方法相对于把vue变成一个当页面应用来说，可以jq和vue混合使用。
+- new新建vue的时候，使用el指定对应的div进行vue实例化。这时div的内容相当于变成模板内容。同时vue此时只是用于处理一个div的内容，原则上一个页面可以有多个vue实例（对应多个div）。这种方法相对于把vue变成一个当页面应用来说，可以Jquery和vue混合使用。
 
 - ElementUI使用script的方式引入，或者cdn的方式引入时，属于全局引用，不需要使用vue.use进行组件注册。
 
 
 
 ## 结语
-对于活跃于JQ世代的老前端来说，单页面应用并不是唯一的方式，还有传统的网页方式（结合JQ或者直接操作DOM）。仅仅记录一下，相信大部分人也不会这么使用。毕竟现在vue3的工具越来越简单而强大。 
+对于活跃于Jquery世代的老前端来说，单页面应用并不是唯一的方式，还有传统的网页方式（结合Jquery或者直接操作DOM）。仅仅记录一下，相信大部分人也不会这么使用。毕竟现在vue3的工具越来越简单而强大。 

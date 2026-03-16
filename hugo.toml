@@ -39,6 +39,10 @@ bio = "一名热爱技术的开发者..."
 recent_posts_number = 10
 subtitle = "探索技术与创意"
 
+[params.baiduAnalytics]
+disable = false
+id = "codeva-cpQfIIEeYl"
+
 # 启用搜索功能
 [params.search]
 enable = true
