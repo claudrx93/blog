@@ -41,7 +41,7 @@ subtitle = "探索技术与创意"
 
 [params.baiduAnalytics]
 disable = false
-id = "codeva-cpQfIIEeYl"
+id = "codeva-mzTgDZhFRI"
 
 # 启用搜索功能
 [params.search]
@@ -83,4 +83,4 @@ disableXML = true
 minifyOutput = true
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS"]
