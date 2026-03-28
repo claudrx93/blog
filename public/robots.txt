@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://599929995.xyz/sitemap.xml
+Disallow: /

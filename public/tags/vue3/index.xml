@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vue3 on 9995空间</title>
+    <link>http://localhost:1313/tags/vue3/</link>
+    <description>Recent content in Vue3 on 9995空间</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 28 Jul 2022 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vue3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vue 3: `defineProps` are referencing locally declared variables</title>
+      <link>http://localhost:1313/posts/2022/07/vue-3-defineprops-are-referencing-locally-declared-variables/</link>
+      <pubDate>Thu, 28 Jul 2022 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2022/07/vue-3-defineprops-are-referencing-locally-declared-variables/</guid>
+      <description>&lt;h2 id=&#34;错误内容如下&#34;&gt;错误内容如下：&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;plugin:vite:vue&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;@vue/compiler-sfc&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;defineProps&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt; in &amp;lt;script setup&amp;gt; cannot reference locally declared variables because it will be hoisted outside of the setup&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;. If your component options require initialization in the module scope, use a separate normal &amp;lt;script&amp;gt; to export the options instead. &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
