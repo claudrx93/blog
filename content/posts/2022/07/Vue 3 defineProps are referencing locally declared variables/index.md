@@ -48,7 +48,7 @@ props与setup之间的关系
 ## 解决办法1：
 
 import引用的时候，变量是定义在module scope的，因此在同一个作用域。
-
+``` js
 <script setup>
 import { sizes } from './sizes' // <= import it
 
@@ -59,6 +59,8 @@ const props = defineProps({
   }
 })
 </script>
+```
+
 ## 解决办法2：
 
 把变量定义在script里，这样也是定义在module scope上。
