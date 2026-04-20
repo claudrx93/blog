@@ -1,6 +1,6 @@
 +++
 date = '2022-07-26T12:03:54+08:00'
-draft = true
+draft = false
 title = 'Yii2增加opcache命令行清理功能'
 featured_image = ''
 categories = ['编程']

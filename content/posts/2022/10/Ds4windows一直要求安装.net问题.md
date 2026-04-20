@@ -1,10 +1,10 @@
 +++
 date = '2022-10-01T22:34:13+08:00'
-draft = true
+draft = false
 title = 'Ds4windows一直要求安装.net问题'
 featured_image = ''
 categories = []
-tags = []
+tags = ['Ds4windows']
 toc= false
 +++
 今天试着把PS4的手柄使用蓝牙连接PC玩游戏，但是部分游戏无法使用蓝牙游玩。
