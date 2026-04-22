@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Composer on 9995空间</title>
+    <link>http://localhost:1313/tags/composer/</link>
+    <description>Recent content in Composer on 9995空间</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 18 Nov 2022 17:51:23 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/composer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your lock file does not contain a compatible set of packages. Pl</title>
+      <link>http://localhost:1313/posts/2022/11/your-lock-file-does-not-contain-a-compatible-set-of-packages.-pl/</link>
+      <pubDate>Fri, 18 Nov 2022 17:51:23 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2022/11/your-lock-file-does-not-contain-a-compatible-set-of-packages.-pl/</guid>
+      <description>&lt;h2 id=&#34;问题&#34;&gt;问题：&lt;/h2&gt;&#xA;&lt;p&gt;Installing dependencies from lock file (including require-dev)&lt;/p&gt;&#xA;&lt;p&gt;Verifying lock file contents can be installed on current platform.&lt;/p&gt;&#xA;&lt;p&gt;Your lock file does not contain a compatible set of packages. Please run composer update.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

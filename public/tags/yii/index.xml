@@ -6,8 +6,15 @@
     <description>Recent content in Yii on 9995空间</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 26 Jul 2022 12:03:54 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 08 Oct 2022 16:25:20 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/yii/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决SSL routines:tls_process_server_certificate问题</title>
+      <link>http://localhost:1313/posts/2022/10/%E8%A7%A3%E5%86%B3ssl-routines-tls_process_server_certificate%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Sat, 08 Oct 2022 16:25:20 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2022/10/%E8%A7%A3%E5%86%B3ssl-routines-tls_process_server_certificate%E9%97%AE%E9%A2%98/</guid>
+      <description>&lt;p&gt;更新sqlsrv驱动后，产生TLS加密的问题，问题如下：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-SQL&#34; data-lang=&#34;SQL&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SQLSTATE&lt;/span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;08001&lt;/span&gt;]: [Microsoft][ODBC Driver &lt;span style=&#34;color:#ae81ff&#34;&gt;18&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;SQL&lt;/span&gt; Server]SSL Provider: [error:&lt;span style=&#34;color:#ae81ff&#34;&gt;1416&lt;/span&gt;F086:SSL routines:tls_process_server_certificate:certificate verify failed:&lt;span style=&#34;color:#66d9ef&#34;&gt;self&lt;/span&gt; signed certificate] &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
     <item>
       <title>Yii2增加opcache命令行清理功能</title>
       <link>http://localhost:1313/posts/2022/07/yii2%E5%A2%9E%E5%8A%A0opcache%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%B8%85%E7%90%86%E5%8A%9F%E8%83%BD/</link>

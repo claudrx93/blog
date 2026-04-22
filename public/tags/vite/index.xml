@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vite on 9995空间</title>
+    <link>http://localhost:1313/tags/vite/</link>
+    <description>Recent content in Vite on 9995空间</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 21 Nov 2022 17:54:02 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vite配置开发环境自动打开浏览器</title>
+      <link>http://localhost:1313/posts/2022/11/vite%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%87%AA%E5%8A%A8%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
+      <pubDate>Mon, 21 Nov 2022 17:54:02 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2022/11/vite%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%87%AA%E5%8A%A8%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
