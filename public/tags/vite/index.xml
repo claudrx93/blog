@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/2022/11/vite%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%87%AA%E5%8A%A8%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
       <pubDate>Mon, 21 Nov 2022 17:54:02 +0800</pubDate>
       <guid>http://localhost:1313/posts/2022/11/vite%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%87%AA%E5%8A%A8%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8/</guid>
-      <description></description>
+      <description>&lt;p&gt;    vite配置server.open开启后，会在运行dev成功时默认打开指定页面，此时会使用电脑的默认浏览器进行打开。但是，如果开发浏览器不是默认浏览器时就需要进行配置。&lt;/p&gt;&#xA;&lt;p&gt;    查询vite的官方文档，这个功能是引用open的这个库。这个库是支持指定浏览器打开页面。但是vite的文档对这个设置的描述比较简单，原文如下：&lt;/p&gt;&#xA;&lt;p&gt;若你想指定喜欢的浏览器打开服务器，你可以设置环境变量 process.env.BROWSER（例如：firefox）。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

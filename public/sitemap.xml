@@ -261,9 +261,5 @@
     <lastmod>2022-01-01T17:22:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E6%89%A7%E8%A1%8Ccomposer/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>
