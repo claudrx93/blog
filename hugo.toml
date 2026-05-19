@@ -78,15 +78,15 @@ name = "关于"
 url = "/about/"
 weight = 50
 
-[[menus.main]]
-name = "联系"
-url = "/contact/"
-weight = 60
-
-[[menus.main]]
+[[menus.footer]]
 name = "隐私政策"
 url = "/privacy-policy/"
-weight = 70
+weight = 10
+
+[[menus.footer]]
+name = "联系"
+url = "/contact/"
+weight = 20
 
 # GitHub Pages 配置
 [deployment]
