@@ -51,16 +51,6 @@ enable = true
 name = "twitter"
 url = "https://twitter.com/GoHugoIO"
 
-# [[menus.main]]
-# name = "关于" 
-# url = "/about/" 
-# weight = 10 # weight 值控制菜单项的显示顺序，值越小越靠前
-
-[[menus.main]]
-name = "栏目"
-url = "/categories/"
-weight = 20
-
 [[menus.main]]
 identifier = "posts"
 name = "文章"
@@ -71,7 +61,32 @@ weight = 10
 identifier = "travel"
 name = "游记"
 url = "/travel/"
-weight = 10
+weight = 20
+
+[[menus.main]]
+name = "分类"
+url = "/categories/"
+weight = 30
+
+[[menus.main]]
+name = "标签"
+url = "/tags/"
+weight = 40
+
+[[menus.main]]
+name = "关于"
+url = "/about/"
+weight = 50
+
+[[menus.main]]
+name = "联系"
+url = "/contact/"
+weight = 60
+
+[[menus.main]]
+name = "隐私政策"
+url = "/privacy-policy/"
+weight = 70
 
 # GitHub Pages 配置
 [deployment]

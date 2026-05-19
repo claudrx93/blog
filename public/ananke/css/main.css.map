@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "C:/projests/blog",
+	"sourceRoot": "C:/Users/ASUS/.qclaw/workspace-agent-fa7273bc/blog",
 	"sources": [
 		"ananke/css/main.css"
 	],

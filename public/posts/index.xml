@@ -6,8 +6,85 @@
     <description>Recent content in Posts on 9995空间</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 03 Feb 2026 20:12:50 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 10:35:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vue 3 Composition API 实战：从 Options API 迁移指南</title>
+      <link>http://localhost:1313/posts/2026/05/vue3-composition-api%E5%AE%9E%E6%88%98%E4%BB%8Eoptions-api%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Tue, 19 May 2026 10:35:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2026/05/vue3-composition-api%E5%AE%9E%E6%88%98%E4%BB%8Eoptions-api%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;p&gt;Vue 3 引入了 Composition API，这是 Vue 生态中最大的范式转变之一。本文将结合实际项目经验，详细介绍如何从 Options API 平滑迁移到 Composition API。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么需要-composition-api&#34;&gt;为什么需要 Composition API？&lt;/h2&gt;&#xA;&lt;p&gt;在 Options API 中，一个组件的逻辑被拆分到 data、methods、computed、watch 等选项中。当组件变得复杂时，同一个功能的代码散落在不同选项里，难以维护。&lt;/p&gt;&#xA;&lt;p&gt;Composition API 允许我们按&lt;strong&gt;逻辑功能&lt;/strong&gt;组织代码，而不是按选项类型。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TypeScript 在 Vue 3 项目中的最佳实践</title>
+      <link>http://localhost:1313/posts/2026/05/typescript%E5%9C%A8vue3%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link>
+      <pubDate>Mon, 18 May 2026 10:35:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2026/05/typescript%E5%9C%A8vue3%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</guid>
+      <description>&lt;p&gt;TypeScript 已经成为 Vue 3 项目的标配。本文总结在实际项目中积累的 TypeScript 最佳实践，帮你写出更类型安全的 Vue 代码。&lt;/p&gt;&#xA;&lt;h2 id=&#34;项目配置&#34;&gt;项目配置&lt;/h2&gt;&#xA;&lt;p&gt;使用 Vite 创建 Vue 3 + TypeScript 项目：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm create vite@latest my-app -- --template vue-ts&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Cocos Creator 性能优化：从 30fps 到 60fps 的实战记录</title>
+      <link>http://localhost:1313/posts/2026/05/cocos-creator%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%BB%8E30fps%E5%88%B060fps%E7%9A%84%E5%AE%9E%E6%88%98%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Sun, 17 May 2026 10:35:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2026/05/cocos-creator%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%BB%8E30fps%E5%88%B060fps%E7%9A%84%E5%AE%9E%E6%88%98%E8%AE%B0%E5%BD%95/</guid>
+      <description>&lt;p&gt;最近在开发一款 Cocos Creator 游戏时，遇到了严重的性能问题——场景复杂时帧率掉到 30fps 以下。经过一轮排查和优化，最终稳定在 60fps。本文记录整个优化过程。&lt;/p&gt;&#xA;&lt;h2 id=&#34;问题分析&#34;&gt;问题分析&lt;/h2&gt;&#xA;&lt;p&gt;使用 Cocos Creator 内置的 Profiler 工具分析，发现主要瓶颈：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;渲染批次过多&lt;/strong&gt;：Draw Call 数量达到 500+&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;内存占用高&lt;/strong&gt;：频繁 GC 导致卡顿&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;节点数量过多&lt;/strong&gt;：动态创建的节点未及时回收&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Vite 插件开发入门：打造你自己的构建工具</title>
+      <link>http://localhost:1313/posts/2026/05/vite%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8%E6%89%93%E9%80%A0%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Sat, 16 May 2026 10:35:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2026/05/vite%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8%E6%89%93%E9%80%A0%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/</guid>
+      <description>&lt;p&gt;Vite 的插件系统基于 Rollup 插件接口扩展而来，开发一个 Vite 插件比想象中简单。本文从零开始，带你开发一个实用的 Vite 插件。&lt;/p&gt;&#xA;&lt;h2 id=&#34;vite-插件基础&#34;&gt;Vite 插件基础&lt;/h2&gt;&#xA;&lt;p&gt;一个最简单的 Vite 插件：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pinia 状态管理实战：取代 Vuex 的完整方案</title>
+      <link>http://localhost:1313/posts/2026/05/pinia%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86%E5%AE%9E%E6%88%98%E5%8F%96%E4%BB%A3vuex%E7%9A%84%E5%AE%8C%E6%95%B4%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Fri, 15 May 2026 10:35:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2026/05/pinia%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86%E5%AE%9E%E6%88%98%E5%8F%96%E4%BB%A3vuex%E7%9A%84%E5%AE%8C%E6%95%B4%E6%96%B9%E6%A1%88/</guid>
+      <description>&lt;p&gt;Pinia 已经成为 Vue 3 官方推荐的状态管理方案，完全取代了 Vuex。本文从实际项目出发，分享 Pinia 的使用经验和最佳实践。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么选择-pinia&#34;&gt;为什么选择 Pinia？&lt;/h2&gt;&#xA;&lt;p&gt;相比 Vuex，Pinia 的优势：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;更简洁&lt;/strong&gt; — 没有 mutations，直接修改 state&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;更好的 TS 支持&lt;/strong&gt; — 完善的类型推导，无需手写类型&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;更轻量&lt;/strong&gt; — 约 1KB gzip&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;模块化&lt;/strong&gt; — 每个 Store 独立，无需嵌套模块&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;DevTools 支持&lt;/strong&gt; — 完整的时间旅行调试&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Cocos Creator 3.x 与 2.x 的核心差异对比</title>
+      <link>http://localhost:1313/posts/2026/05/cocos-creator-3x%E4%B8%8E2x%E7%9A%84%E6%A0%B8%E5%BF%83%E5%B7%AE%E5%BC%82%E5%AF%B9%E6%AF%94/</link>
+      <pubDate>Thu, 14 May 2026 10:35:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2026/05/cocos-creator-3x%E4%B8%8E2x%E7%9A%84%E6%A0%B8%E5%BF%83%E5%B7%AE%E5%BC%82%E5%AF%B9%E6%AF%94/</guid>
+      <description>&lt;p&gt;Cocos Creator 从 2.x 升级到 3.x 是一次架构级的重构，API 变化巨大。本文梳理两者的核心差异，帮你快速适应 3.x 开发。&lt;/p&gt;&#xA;&lt;h2 id=&#34;渲染引擎&#34;&gt;渲染引擎&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;特性&lt;/th&gt;&#xA;          &lt;th&gt;2.x&lt;/th&gt;&#xA;          &lt;th&gt;3.x&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;渲染器&lt;/td&gt;&#xA;          &lt;td&gt;Cocos2d-x&lt;/td&gt;&#xA;          &lt;td&gt;全新渲染引擎&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;3D 支持&lt;/td&gt;&#xA;          &lt;td&gt;有限&lt;/td&gt;&#xA;          &lt;td&gt;原生支持&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;材质系统&lt;/td&gt;&#xA;          &lt;td&gt;简单&lt;/td&gt;&#xA;          &lt;td&gt;基于物理的材质（PBR）&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;渲染管线&lt;/td&gt;&#xA;          &lt;td&gt;固定&lt;/td&gt;&#xA;          &lt;td&gt;可定制渲染管线&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>前端项目 Docker 化部署实战</title>
+      <link>http://localhost:1313/posts/2026/05/%E5%89%8D%E7%AB%AF%E9%A1%B9%E7%9B%AEdocker%E5%8C%96%E9%83%A8%E7%BD%B2%E5%AE%9E%E6%88%98/</link>
+      <pubDate>Wed, 13 May 2026 10:35:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2026/05/%E5%89%8D%E7%AB%AF%E9%A1%B9%E7%9B%AEdocker%E5%8C%96%E9%83%A8%E7%BD%B2%E5%AE%9E%E6%88%98/</guid>
+      <description>&lt;p&gt;将前端项目 Docker 化部署是现代运维的基本操作。本文以 Vue/Vite 项目为例，从 Dockerfile 编写到 CI/CD 配置，给出完整的实战方案。&lt;/p&gt;&#xA;&lt;h2 id=&#34;多阶段构建&#34;&gt;多阶段构建&lt;/h2&gt;&#xA;&lt;p&gt;前端项目的最佳实践是&lt;strong&gt;多阶段构建&lt;/strong&gt;：第一阶段构建，第二阶段只保留产物 + Nginx。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ESLint &#43; Prettier &#43; Husky：前端代码规范自动化配置指南</title>
+      <link>http://localhost:1313/posts/2026/05/eslint-prettier-husky%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E8%87%AA%E5%8A%A8%E5%8C%96%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Tue, 12 May 2026 10:35:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2026/05/eslint-prettier-husky%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E8%87%AA%E5%8A%A8%E5%8C%96%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;p&gt;团队协作中，代码风格统一是最基本的要求。本文给出一套完整的代码规范自动化方案，确保代码在提交前自动格式化和检查。&lt;/p&gt;&#xA;&lt;h2 id=&#34;工具选型&#34;&gt;工具选型&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;工具&lt;/th&gt;&#xA;          &lt;th&gt;作用&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;ESLint&lt;/td&gt;&#xA;          &lt;td&gt;代码质量检查（语法错误、最佳实践）&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Prettier&lt;/td&gt;&#xA;          &lt;td&gt;代码格式化（缩进、换行、引号等）&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Husky&lt;/td&gt;&#xA;          &lt;td&gt;Git hooks 管理&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;lint-staged&lt;/td&gt;&#xA;          &lt;td&gt;只检查暂存区文件，提升速度&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;配置步骤&#34;&gt;配置步骤&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-安装依赖&#34;&gt;1. 安装依赖&lt;/h3&gt;</description>
+    </item>
+    <item>
+      <title>Vue 3 自定义指令实战：6 个常用指令封装</title>
+      <link>http://localhost:1313/posts/2026/05/vue3%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E4%BB%A4%E5%AE%9E%E6%88%986%E4%B8%AA%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E5%B0%81%E8%A3%85/</link>
+      <pubDate>Mon, 11 May 2026 10:35:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2026/05/vue3%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E4%BB%A4%E5%AE%9E%E6%88%986%E4%B8%AA%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E5%B0%81%E8%A3%85/</guid>
+      <description>&lt;p&gt;Vue 3 的自定义指令在 DOM 操作场景下非常好用，比如权限控制、懒加载、防抖等。本文封装 6 个实际项目中常用的自定义指令。&lt;/p&gt;&#xA;&lt;h2 id=&#34;指令注册方式&#34;&gt;指令注册方式&lt;/h2&gt;&#xA;&lt;h3 id=&#34;全局注册&#34;&gt;全局注册&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ts&#34; data-lang=&#34;ts&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// main.ts&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;app&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;directive&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;focus&amp;#39;&lt;/span&gt;, {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;mounted&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;el&lt;/span&gt;) {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;el&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;focus&lt;/span&gt;()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;})&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>CSS Grid 实战：构建复杂布局的终极方案</title>
+      <link>http://localhost:1313/posts/2026/05/css-grid%E5%AE%9E%E6%88%98%E6%9E%84%E5%BB%BA%E5%A4%8D%E6%9D%82%E5%B8%83%E5%B1%80%E7%9A%84%E7%BB%88%E6%9E%81%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Sun, 10 May 2026 10:35:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2026/05/css-grid%E5%AE%9E%E6%88%98%E6%9E%84%E5%BB%BA%E5%A4%8D%E6%9D%82%E5%B8%83%E5%B1%80%E7%9A%84%E7%BB%88%E6%9E%81%E6%96%B9%E6%A1%88/</guid>
+      <description>&lt;p&gt;CSS Grid 是目前最强大的布局方案，能轻松实现以前需要各种 hack 的复杂布局。本文通过实战案例，展示 Grid 的核心用法。&lt;/p&gt;&#xA;&lt;h2 id=&#34;grid-基础概念&#34;&gt;Grid 基础概念&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;container&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;display&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;grid&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;grid-template-columns&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;fr &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;fr;  &lt;span style=&#34;color:#75715e&#34;&gt;/* 3列 */&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;grid-template-rows&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;auto&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;fr &lt;span style=&#34;color:#66d9ef&#34;&gt;auto&lt;/span&gt;;       &lt;span style=&#34;color:#75715e&#34;&gt;/* 3行 */&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;gap&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;16&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;grid-template-columns&lt;/code&gt; — 定义列&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;grid-template-rows&lt;/code&gt; — 定义行&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;gap&lt;/code&gt; — 间距&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;fr&lt;/code&gt; — 剩余空间份数&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Vite 构建优化：打包体积从 2MB 降到 400KB</title>
+      <link>http://localhost:1313/posts/2026/05/vite%E6%9E%84%E5%BB%BA%E4%BC%98%E5%8C%96%E6%89%93%E5%8C%85%E4%BD%93%E7%A7%AF%E4%BB%8E2mb%E9%99%8D%E5%88%B0400kb/</link>
+      <pubDate>Sat, 09 May 2026 10:35:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2026/05/vite%E6%9E%84%E5%BB%BA%E4%BC%98%E5%8C%96%E6%89%93%E5%8C%85%E4%BD%93%E7%A7%AF%E4%BB%8E2mb%E9%99%8D%E5%88%B0400kb/</guid>
+      <description>&lt;p&gt;Vite 开发体验很快，但构建产物的优化需要手动配置。本文记录一次实际的构建优化过程，将打包体积从 2MB 降到 400KB。&lt;/p&gt;&#xA;&lt;h2 id=&#34;分析现状&#34;&gt;分析现状&lt;/h2&gt;&#xA;&lt;p&gt;首先用 rollup-plugin-visualizer 分析包组成：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install -D rollup-plugin-visualizer&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ts&#34; data-lang=&#34;ts&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// vite.config.ts&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;visualizer&lt;/span&gt; } &lt;span style=&#34;color:#66d9ef&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;rollup-plugin-visualizer&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;default&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;defineConfig&lt;/span&gt;({&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;plugins&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; [&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;visualizer&lt;/span&gt;({ &lt;span style=&#34;color:#a6e22e&#34;&gt;open&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;gzipSize&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt; })&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;})&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;构建后生成 stats.html，直观看到每个依赖的占比。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>使用Hugo部署免费博客</title>
       <link>http://localhost:1313/posts/2026/02/%E4%BD%BF%E7%94%A8hugo%E9%83%A8%E7%BD%B2%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2/</link>
